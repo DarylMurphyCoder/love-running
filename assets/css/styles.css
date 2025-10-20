@@ -105,18 +105,8 @@ main { /* Push main content down to accomodate larger header */
         }
 
         }
-/* Footer */
-#social-networks {
-    text-align: center;
-    padding: 20px 0;
-    display: flex;
-    justify-content: space-evenly;
-    list-style-type: none;
-}
-#social-networks i {font-size: 160%;
-    padding: 5%;
-    color:#3a3a3a;
-}
+
+
 
     /* Header styles for larger screens */
     header {padding: 0 2rem;}
@@ -136,3 +126,14 @@ main { /* Push main content down to accomodate larger header */
     display: block;
     top: auto;}
     }
+/* Footer */
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;}
+
+#social-networks i {font-size: 160%;
+    padding: 5%;
+color: #3a3a3a;}
