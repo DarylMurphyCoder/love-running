@@ -165,13 +165,21 @@ main { /* Push main content down to accomodate larger header */
 }
 #benefits-physical > div,
     #benefits-mental > div {width: 75%;}
+
 #benefits-mental > div {align-self: flex-end; text-align: end;}
+
+/* Gallery */
+#photos {column-count: 3;
 
     /* large devices (laptops and desktops, 992px and up) */
     @media screen and (min-width: 992px) {
         #menu a:hover {
             border-bottom: 1px solid #3a3a3a;
         }
+     /* Gallery */
+ #photos {column-count: 4;}
+
+
         /* Hero*/
 #cover-text {
     width: 300px;
@@ -216,6 +224,10 @@ line-height: 1em;}
     padding: 5%;
 color: #3a3a3a;}
 
+/* media Query: Large desktops and laptops (1200px and up) */
+@media screen and (min-width: 576px) { #photos {column-count: 2;
+column-gap: 0;}}
+
 
 @media screen and (min-width: 1200px){
 
@@ -231,10 +243,4 @@ color: #3a3a3a;}
     #benefits-mental > div {align-self:flex-start;}
 
     #benefits-physical > div {align-self: flex-end;}
-
-
-
-
-
-    
 }
