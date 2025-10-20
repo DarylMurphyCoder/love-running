@@ -197,6 +197,13 @@ right: 50px;}}
     display: block;
     top: auto;}
     }
+
+/* Gallery page */
+#photos img {width:100%;
+line-height: 1em;}
+
+#photos {line-height: 0;}
+
 /* Footer */
 #social-networks {
     text-align: center;
@@ -222,7 +229,7 @@ color: #3a3a3a;}
     #benefits-mental {order: 1;}
 
     #benefits-mental > div {align-self:flex-start;}
-    
+
     #benefits-physical > div {align-self: flex-end;}
 
 
